@@ -1,0 +1,74 @@
+body {
+    background-color: #fcf804;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header, footer, hr{
+  background: #0509f5ea;
+  color: #ffffff;
+  font-family: fantasy
+}
+
+h1 {
+  font-family: Parkavenue;
+  font-size: 48px;
+  letter-spacing: 25px;
+  font: bold;
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  color: #d6d1d1;
+}
+
+h3 {
+  font-family:cursive;
+  color: #ff0000;
+}
+
+/* image size is set to be responsive and added box shadow for depth */
+img {
+width: 35%;
+box-shadow: 6px 6px 15px #0509ff6b;
+}
+
+/* added 5% margin to main text area */
+main {
+  margin: 5%;
+  padding: 25px;
+}
+
+/* sizing settings for section break */
+hr {
+  width: 300px;
+  height: 5px;
+
+}
+
+footer {
+  padding: 1px;
+
+}
+/* took an unordered list and transposed it horizontally and centered. */
+#contact li, ul{
+   display: inline;
+   word-spacing: 15px;
+   text-align: center;
+
+}
+
+#lakers {
+  color:#f8d40a;
+  text-shadow: 1px 1px #800080;
+}
+
+/* applies to all links */
+
+a:visited {color:#800080;}
+a:link    {color: #ff0000;}
+a:hover   {color: #ffffff;}
+a:active  {color: #eeff00;}
+
