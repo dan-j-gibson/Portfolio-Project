@@ -1,14 +1,15 @@
+/* applies text alignment to all texts on page */
 body {
     background-color: #fcf804;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     margin: 0;
 }
+/* set body margin to 0 to keep header and footer flushed with the edge of the screen */
 
 header, footer, hr{
   background: #0509f5ea;
   color: #ffffff;
-  font-family: fantasy
 }
 
 h1 {
